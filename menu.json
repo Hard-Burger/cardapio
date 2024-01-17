@@ -1,0 +1,316 @@
+{
+  "itens": [
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Salada",
+      "imagem": "/images/Smach Salada.png",
+      "descricao": "Pão Brioche, 1 Carne de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
+      "preco": "R$ 17,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Salada Duplo",
+      "imagem": "/images/Smach Salada Duplo.png",
+      "descricao": "Pão Brioche, 2 Carnes de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
+      "preco": "R$ 21,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Burger",
+      "imagem": "/images/Smach Burger.png",
+      "descricao": "Pão Brioche, 1 Carne de 70g, Bacon e Molho da Casa.",
+      "preco": "R$ 17,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Burger Duplo",
+      "imagem": "/images/Smach Burger Duplo.png",
+      "descricao": "Pão Brioche, 2 Carnes de 70g, Bacon e Molho da Casa.",
+      "preco": "R$ 21,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Burger Triplo",
+      "imagem": "/images/Smach Burger Triplo.png",
+      "descricao": "Pão Brioche, 3 Carnes de 70g, Bacon e Molho da Casa.",
+      "preco": "R$ 25,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Simples Burger",
+      "imagem": "/images/Simples Burger.png",
+      "descricao": "Pão, 1 Carne de 140g e Queijo Cheddar.",
+      "preco": "R$ 17,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Classic",
+      "imagem": "/images/Classic.png",
+      "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Alface, Tomate, Cebola Roxa, Maionese e Ketchup.",
+      "preco": "R$ 22,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Stake House",
+      "imagem": "/images/Stake House.png",
+      "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Crispy Onion, Alface, Tomate, Molho Barbecue e Molho da Casa.",
+      "preco": "R$ 22,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Nordestino",
+      "imagem": "/images/Nordestino.png",
+      "descricao": "Pão Australiano, Hambúrguer de 140g, Bacon, Queijo Coalho, Queijo Cheddar e Molho da Casa.",
+      "preco": "R$ 27,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Monster 1.0",
+      "imagem": "/images/Monster 1.0.png",
+      "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
+      "preco": "R$ 22,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Monster 2.0",
+      "imagem": "/images/Monster Duplo.png",
+      "descricao": "Pão, 2 Carnes de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
+      "preco": "R$ 30,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Monster Burger",
+      "imagem": "/images/Monster Burger.png",
+      "descricao": "Pão, 3 Carnes de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
+      "preco": "R$ 38,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Cheddar",
+      "imagem": "/images/Cheddar.png",
+      "descricao": "Pão, 1 Carne de 140g, Cheddar, Bacon e Molho da Casa.",
+      "preco": "R$ 22,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Cheddar Duplo",
+      "imagem": "/images/Cheddar Duplo.png",
+      "descricao": "Pão, 2 Carnes de 140g, Cheddar, Bacon e Molho da Casa.",
+      "preco": "R$ 30,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Onion Burger",
+      "imagem": "/images/Onion Burger.png",
+      "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Onion Rings, Molho Barbecue e Molho da Casa.",
+      "preco": "R$ 25,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Onion Duplo",
+      "imagem": "/images/Onion Duplo.png",
+      "descricao": "Pão, 2 Carnes de 140g, Queijo Cheddar, Onion Rings, Molho Barbecue e Molho da Casa.",
+      "preco": "R$ 32,00"
+    },
+    {
+      "categoria": "Combos",
+      "id": "burgers-combos",
+      "nome": "Combo Smash Solteiro",
+      "imagem": "/images/Combo Smash Solteiro.png",
+      "descricao": "1 Smash Salada, Batata com Cheddar e 1 Guaraná Antártica 269ml.",
+      "preco": "R$ 27,00"
+    },
+    {
+      "categoria": "Combos",
+      "id": "burgers-combos",
+      "nome": "Combo Smash Casal",
+      "imagem": "/images/Combo Smash Casal.png",
+      "descricao": "2 Smash Salada, Batata com Cheddar e 2 Guaraná Antártica 269ml.",
+      "preco": "R$ 55,00"
+    },
+    {
+      "categoria": "Combos",
+      "id": "burgers-combos",
+      "nome": "Combo Solteiro",
+      "imagem": "/images/Combo Solteiro.png",
+      "descricao": "1 Classic, Batata (Cheddar, Bacon e Calabresa) e 1 Guaraná Antártica 269ml.",
+      "preco": "R$ 30,00"
+    },
+    {
+      "categoria": "Combos",
+      "id": "burgers-combos",
+      "nome": "Combo Casal",
+      "imagem": "/images/Combo Casal.png",
+      "descricao": "2 Classics, Batata (Cheddar, Bacon e Calabresa) 2 Guaraná Antártica 269ml.",
+      "preco": "R$ 60,00"
+    },
+    {
+      "categoria": "Combos",
+      "id": "burgers-combos",
+      "nome": "Combo Família",
+      "imagem": "/images/Combo Família.png",
+      "descricao": "4 Classics, Batata (Cheddar, Bacon e Calabresa) e 1 Dolly 2L.",
+      "preco": "R$ 100,00"
+    },
+    {
+      "categoria": "Batatas",
+      "id": "batatas",
+      "nome": "Batata Crinkle",
+      "imagem": "/images/Batata Crinkle.png",
+      "descricao": "Batata Crinkle.",
+      "preco": "R$ 14,00"
+    },
+    {
+      "categoria": "Batatas",
+      "id": "batatas",
+      "nome": "Batata Crinkle (Cheddar e Bacon)",
+      "imagem": "/images/Batata Crinkle (Cheddar e Bacon).png",
+      "descricao": "Batata Crinkle, cheddar e bacon.",
+      "preco": "R$ 30,00"
+    },
+    {
+      "categoria": "Batatas",
+      "id": "batatas",
+      "nome": "Batata P",
+      "imagem": "/images/Batata P.png",
+      "descricao": "Batata, cheddar, bacon e calabresa.",
+      "preco": "R$ 16,00"
+    },
+    {
+      "categoria": "Batatas",
+      "id": "batatas",
+      "nome": "Batata M",
+      "imagem": "/images/Batata M.png",
+      "descricao": "Batata, cheddar, bacon e calabresa.",
+      "preco": "R$ 30,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Fanta Laranja 350ml",
+      "imagem": "/images/Fanta Laranja 350ml.png",
+      "descricao": "Refrigerante Fanta Laranja 350ml",
+      "preco": "R$ 4,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Fanta Uva 350ml",
+      "imagem": "/images/Fanta Uva 350ml.png",
+      "descricao": "Refrigerante Fanta Uva 350ml",
+      "preco": "R$ 4,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Guaraná Antártica 350ml",
+      "imagem": "/images/Guaraná Antártica 350ml.png",
+      "descricao": "Refrigerante Guaraná Antártica 350ml",
+      "preco": "R$ 4,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Coca-Cola 350ml",
+      "imagem": "/images/Coca-Cola 350ml.png",
+      "descricao": "Refrigerante Coca-Cola 350ml",
+      "preco": "R$ 5,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Coca-Cola 600ml",
+      "imagem": "/images/Coca-Cola 600ml.png",
+      "descricao": "Refrigerante Coca-Cola 600ml",
+      "preco": "R$ 8,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Coca-Cola 1L",
+      "imagem": "/images/Coca-Cola 1L.png",
+      "descricao": "Refrigerante Coca-Cola 1L",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Coca-Cola 2L",
+      "imagem": "/images/Coca-Cola 2l.png",
+      "descricao": "Refrigerante Coca-Cola 2l",
+      "preco": "R$ 13,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Fanta Laranja 2L",
+      "imagem": "/images/Fanta Laranja 2l.png",
+      "descricao": "Refrigerante Fanta Laranja 2l",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Fanta Uva 2L",
+      "imagem": "/images/Fanta Uva 2l.png",
+      "descricao": "Refrigerante Fanta Uva 2l",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Guaraná Antártica 2L",
+      "imagem": "/images/Guaraná Antártica 2l.png",
+      "descricao": "Refrigerante Guaraná Antártica 2l",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Pepsi 2L",
+      "imagem": "/images/Pepsi 2L.png",
+      "descricao": "Refrigerante Pepsi 2L",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Sukita Laranja 2L",
+      "imagem": "/images/Sukita Laranja 2L.png",
+      "descricao": "Refrigerante Sukita Laranja 2L",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Sukita Uva 2L",
+      "imagem": "/images/Sukita Uva 2L.png",
+      "descricao": "Refrigerante Sukita Uva 2L",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Dolly 2L",
+      "imagem": "/images/Dolly 2L.png",
+      "descricao": "Refrigerante Dolly 2L",
+      "preco": "R$ 6,00"
+    }
+  ]
+}
