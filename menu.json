@@ -75,6 +75,14 @@
     {
       "categoria": "Hambúrgueres Artesanais",
       "id": "burgers-artesanais",
+      "nome": "Nordestino Duplo",
+      "imagem": "images/Nordestino Duplo.png",
+      "descricao": "Pão Australiano, 2 Hambúrgueres de 140g, Bacon, Queijo Coalho, Queijo Cheddar e Molho da Casa.",
+      "preco": "R$ 35,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
       "nome": "Monster 1.0",
       "imagem": "images/Monster 1.0.png",
       "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
