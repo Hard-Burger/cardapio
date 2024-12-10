@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.item {
+    min-width: 100%;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; /* Garante ajuste da imagem */
+    filter: brightness(0.7); /* Escurece um pouco a imagem */
+    border-radius: 10px;
+}
+
+.conteudo {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.conteudo p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.conteudo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD700; /* Amarelo dourado */
+}
+
+/* Setas de navegação */
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.seta:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.esquerda {
+    left: 10px;
+}
+
+.direita {
+    right: 10px;
+}
+
+/* Estilos do menu de categorias */
+.categorias {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.categorias button {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.categorias button:hover {
+    background-color: #FFA500;
+}
+
+.categorias button.ativo {
+    background-color: #FF4500;
+    color: #fff;
+}

@@ -1,50 +1,101 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("menu.json")
+  const carrossel = document.getElementById("carrossel");
+  const categoriasDiv = document.querySelector(".categorias");
+
+  let dadosMenu = [];
+  let itensFiltrados = [];
+  let indiceAtual = 0;
+
+  // Carrega o menu.json
+  fetch("menu.json")
       .then(response => response.json())
       .then(data => {
-        const menuItensContainer = document.querySelector(".menu-itens");
-        let categoriasAdicionadas = [];
-  
-        data.itens.forEach(item => {
-          if (!categoriasAdicionadas.includes(item.categoria)) {
-            const categoriaH1 = document.createElement("h1");
-            categoriaH1.textContent = item.categoria;
-            menuItensContainer.appendChild(categoriaH1);
-            categoriasAdicionadas.push(item.categoria);
-          }
-  
+          dadosMenu = data.itens;
+          const categorias = [...new Set(dadosMenu.map(item => item.categoria))];
+          
+          // Gera os botões das categorias
+          categorias.forEach((categoria, index) => {
+              const botao = document.createElement("button");
+              botao.textContent = categoria;
+              botao.onclick = () => selecionarCategoria(categoria, index);
+              if (index === 0) botao.classList.add("ativo"); // Primeira categoria ativa
+              categoriasDiv.appendChild(botao);
+          });
+
+          // Carrega os itens da primeira categoria
+          selecionarCategoria(categorias[0], 0);
+      })
+      .catch(error => console.error("Erro ao carregar o menu:", error));
+
+  // Função para atualizar o carrossel com a categoria selecionada
+  function selecionarCategoria(categoriaSelecionada, index) {
+      // Atualiza botões ativos
+      document.querySelectorAll(".categorias button").forEach(btn => btn.classList.remove("ativo"));
+      document.querySelectorAll(".categorias button")[index].classList.add("ativo");
+
+      // Filtra itens pela categoria
+      itensFiltrados = dadosMenu.filter(item => item.categoria === categoriaSelecionada);
+      indiceAtual = 0; // Reseta índice
+
+      // Renderiza os itens no carrossel
+      renderizarCarrossel();
+  }
+
+  // Renderiza os itens no carrossel
+  function renderizarCarrossel() {
+      carrossel.innerHTML = ""; // Limpa o carrossel
+
+      itensFiltrados.forEach(item => {
           const itemDiv = document.createElement("div");
-          itemDiv.classList.add("item", item.categoria.toLowerCase().replace(" ", "-"));
-  
-          const imgItemDiv = document.createElement("div");
-          imgItemDiv.classList.add("img-item");
-          const imgItem = document.createElement("img");
-          imgItem.src = item.imagem;
-          imgItem.alt = item.nome;
-  
+          itemDiv.classList.add("item");
+
+          const img = document.createElement("img");
+          img.src = item.imagem;
+          img.alt = item.nome;
+
           const conteudoDiv = document.createElement("div");
           conteudoDiv.classList.add("conteudo");
-  
+
           const nomeH2 = document.createElement("h2");
           nomeH2.textContent = item.nome;
-  
+
           const descricaoP = document.createElement("p");
           descricaoP.textContent = item.descricao;
-  
+
           const precoSpan = document.createElement("span");
           precoSpan.textContent = item.preco;
-  
-          imgItemDiv.appendChild(imgItem);
+
           conteudoDiv.appendChild(nomeH2);
           conteudoDiv.appendChild(descricaoP);
           conteudoDiv.appendChild(precoSpan);
-  
-          itemDiv.appendChild(imgItemDiv);
+
+          itemDiv.appendChild(img);
           itemDiv.appendChild(conteudoDiv);
-  
-          menuItensContainer.appendChild(itemDiv);
-        });
-      })
-      .catch(error => console.error("Erro ao carregar o menu:", error));
-  });
-  
+
+          carrossel.appendChild(itemDiv);
+      });
+
+      atualizarCarrossel();
+  }
+
+  // Atualiza a posição do carrossel
+  function atualizarCarrossel() {
+      const deslocamento = -indiceAtual * 100; // Move 100% da largura
+      carrossel.style.transform = `translateX(${deslocamento}%)`;
+  }
+
+  // Navegação no carrossel
+  window.moverCarrossel = function (direcao) {
+      if (itensFiltrados.length === 0) return;
+
+      indiceAtual += direcao;
+
+      if (indiceAtual < 0) {
+          indiceAtual = itensFiltrados.length - 1;
+      } else if (indiceAtual >= itensFiltrados.length) {
+          indiceAtual = 0;
+      }
+
+      atualizarCarrossel();
+  };
+});
