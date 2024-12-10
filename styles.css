@@ -136,50 +136,6 @@ body {
     display: block;
 }
 
-/* Responsividade para telas pequenas */
-@media (max-width: 768px) {
-    /* Carrossel e imagem do menu devem ocupar 100% da tela */
-    .carrossel-container {
-        width: 100%;
-        max-width: none;
-        margin: 20px 0;
-    }
-
-    /* Ajusta o tamanho da imagem no carrossel */
-    .item img {
-        height: 400px; /* Ajusta a altura da imagem para telas menores */
-    }
-
-    /* Reduz tamanho da fonte e espaçamento no conteúdo */
-    .conteudo h2 {
-        font-size: 20px;
-    }
-
-    .conteudo p {
-        font-size: 14px;
-    }
-
-    .conteudo span {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    /* Para telas ainda menores, ajuste o layout */
-    .logo img {
-        max-width: 150px; /* Reduz o tamanho da logo */
-    }
-
-    .carrossel-container {
-        margin: 10px 0;
-    }
-
-    .seta {
-        font-size: 24px; /* Menor tamanho para setas */
-        padding: 8px;
-    }
-}
-
 /* Carrinho */
 .carrinho {
     position: fixed;
@@ -230,10 +186,54 @@ button {
     font-weight: bolder;
     cursor: pointer;
     border-radius: 5px;
-    margin: 1px;
+    margin: 3px;
 }
 
 button:hover {
     background-color: #9e5817;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    /* Carrossel e imagem do menu devem ocupar 100% da tela */
+    .carrossel-container {
+        width: 100%;
+        max-width: none;
+        margin: 20px 0;
+    }
+
+    /* Ajusta o tamanho da imagem no carrossel */
+    .item img {
+        height: 400px; /* Ajusta a altura da imagem para telas menores */
+    }
+
+    /* Reduz tamanho da fonte e espaçamento no conteúdo */
+    .conteudo h2 {
+        font-size: 20px;
+    }
+
+    .conteudo p {
+        font-size: 14px;
+    }
+
+    .conteudo span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Para telas ainda menores, ajuste o layout */
+    .logo img {
+        max-width: 150px; /* Reduz o tamanho da logo */
+    }
+
+    .carrossel-container {
+        margin: 10px 0;
+    }
+
+    .seta {
+        font-size: 24px; /* Menor tamanho para setas */
+        padding: 8px;
+    }
 }
 
