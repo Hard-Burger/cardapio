@@ -45,16 +45,21 @@ body {
 
 /* Conteúdo do Carrossel */
 .conteudo {
+    width: 95%;
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .conteudo h2 {
     font-size: 24px;
     margin-bottom: 5px;
+    color: #eb882b;
 }
 
 .conteudo p {
@@ -64,8 +69,9 @@ body {
 
 .conteudo span {
     font-size: 18px;
-    font-weight: bold;
-    color: #FFD700; /* Amarelo dourado */
+    font-weight: bolder;
+    color: #eb882b; /* Amarelo dourado */
+    margin-right: 5px;
 }
 
 /* Setas de navegação */
@@ -173,3 +179,61 @@ body {
         padding: 8px;
     }
 }
+
+/* Carrinho */
+.carrinho {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+.carrinho-container {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carrinho-container.visivel {
+    display: block;
+}
+
+.btn-carrinho {
+    background-color: #9e5817;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.carrinho ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.carrinho ul li {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #eb882b;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+button:hover {
+    background-color: #9e5817;
+}
+

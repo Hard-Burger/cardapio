@@ -27,7 +27,18 @@
         <button class="seta direita" onclick="moverCarrossel(1)">&#10095;</button>
     </div>
 
+    <!-- Carrinho -->
+    <div class="carrinho">
+        <button class="btn-carrinho" onclick="toggleCarrinho()">Carrinho (<span id="qtdItensCarrinho">0</span>)</button>
+        <div id="carrinhoContainer" class="carrinho-container">
+            <ul id="itensCarrinho">
+                <!-- Itens do carrinho serão inseridos aqui -->
+            </ul>
+            <p id="totalCarrinho">Total: R$ 0,00</p>
+            <button onclick="compartilharWhatsApp()">Compartilhar no WhatsApp</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
-

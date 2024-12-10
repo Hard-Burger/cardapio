@@ -3,46 +3,6 @@
     {
       "categoria": "Hambúrgueres Artesanais",
       "id": "burgers-artesanais",
-      "nome": "Smach Salada",
-      "imagem": "images/Smach Salada.png",
-      "descricao": "Pão Brioche, 1 Carne de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
-      "preco": "R$ 22,00"
-    },
-    {
-      "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
-      "nome": "Smach Salada Duplo",
-      "imagem": "images/Smach salada duplo.png",
-      "descricao": "Pão Brioche, 2 Carnes de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
-      "preco": "R$ 26,00"
-    },
-    {
-      "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
-      "nome": "Smach Burger",
-      "imagem": "images/Smach Burger.png",
-      "descricao": "Pão Brioche, 1 Carne de 70g, Bacon e Molho da Casa.",
-      "preco": "R$ 22,00"
-    },
-    {
-      "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
-      "nome": "Smach Burger Duplo",
-      "imagem": "images/Smach Burger Duplo.png",
-      "descricao": "Pão Brioche, 2 Carnes de 70g, Bacon e Molho da Casa.",
-      "preco": "R$ 26,00"
-    },
-    {
-      "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
-      "nome": "Smach Burger Triplo",
-      "imagem": "images/Smach Burger Triplo.png",
-      "descricao": "Pão Brioche, 3 Carnes de 70g, Bacon e Molho da Casa.",
-      "preco": "R$ 30,00"
-    },
-    {
-      "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
       "nome": "Simples Burger",
       "imagem": "images/Simples Burger.png",
       "descricao": "Pão, 1 Carne de 140g e Queijo Cheddar.",
@@ -145,6 +105,46 @@
       "preco": "R$ 36,00"
     },
     {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Salada",
+      "imagem": "images/Smach Salada.png",
+      "descricao": "Pão Brioche, 1 Carne de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
+      "preco": "R$ 22,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Salada Duplo",
+      "imagem": "images/Smach salada duplo.png",
+      "descricao": "Pão Brioche, 2 Carnes de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
+      "preco": "R$ 26,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Burger",
+      "imagem": "images/Smach Burger.png",
+      "descricao": "Pão Brioche, 1 Carne de 70g, Bacon e Molho da Casa.",
+      "preco": "R$ 22,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Burger Duplo",
+      "imagem": "images/Smach Burger Duplo.png",
+      "descricao": "Pão Brioche, 2 Carnes de 70g, Bacon e Molho da Casa.",
+      "preco": "R$ 26,00"
+    },
+    {
+      "categoria": "Hambúrgueres Artesanais",
+      "id": "burgers-artesanais",
+      "nome": "Smach Burger Triplo",
+      "imagem": "images/Smach Burger Triplo.png",
+      "descricao": "Pão Brioche, 3 Carnes de 70g, Bacon e Molho da Casa.",
+      "preco": "R$ 30,00"
+    },
+    {
       "categoria": "Combos",
       "id": "burgers-combos",
       "nome": "Combo Smash Solteiro",
@@ -185,32 +185,40 @@
       "preco": "R$ 160,00"
     },
     {
-      "categoria": "Batatas",
-      "id": "batatas",
+      "categoria": "Porções",
+      "id": "porções",
+      "nome": "Porção de Onions Rings",
+      "imagem": "images/Onions Rings.png",
+      "descricao": "Onions Rings, Cheddar e Bacon.",
+      "preco": "R$ 25,00"
+    },
+    {
+      "categoria": "Porções",
+      "id": "porções",
       "nome": "Batata Crinkle",
       "imagem": "images/Batata Crinkle.png",
       "descricao": "Batata Crinkle.",
       "preco": "R$ 22,00"
     },
     {
-      "categoria": "Batatas",
-      "id": "batatas",
+      "categoria": "Porções",
+      "id": "porções",
       "nome": "Batata Crinkle (Cheddar e Bacon)",
       "imagem": "images/Batata Crinkle (Cheddar e Bacon).png",
       "descricao": "Batata Crinkle, cheddar e bacon.",
       "preco": "R$ 35,00"
     },
     {
-      "categoria": "Batatas",
-      "id": "batatas",
+      "categoria": "Porções",
+      "id": "porções",
       "nome": "Batata P",
       "imagem": "images/Batata P.png",
       "descricao": "Batata, cheddar, bacon e calabresa.",
       "preco": "R$ 28,00"
     },
     {
-      "categoria": "Batatas",
-      "id": "batatas",
+      "categoria": "Porções",
+      "id": "porções",
       "nome": "Batata M",
       "imagem": "images/Batata M.png",
       "descricao": "Batata, cheddar, bacon e calabresa.",
@@ -342,6 +350,22 @@
       "nome": "Sucos 1L",
       "imagem": "images/Sucos1l.png",
       "descricao": "Sucos de 1L",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Sobremesa",
+      "id": "sobremesa",
+      "nome": "Bombom Oreo e Nutella",
+      "imagem": "images/Oreo e Nutella.png",
+      "descricao": "Bombom Gourmet de Oreo e Nutella.",
+      "preco": "R$ 10,00"
+    },
+    {
+      "categoria": "Sobremesa",
+      "id": "sobremesa",
+      "nome": "Bombom Ninho e Nutella",
+      "imagem": "images/Ninho e Nutella.png",
+      "descricao": "Bombom Gourmet de Ninho e Nutella.",
       "preco": "R$ 10,00"
     }
   ]
