@@ -36,7 +36,7 @@
       "categoria": "Hambúrgueres Artesanais",
       "id": "burgers-artesanais",
       "nome": "Smach Burger Triplo",
-      "imagem": "images/Smach Burger Duplo.png",
+      "imagem": "images/Smach Burger Triplo.png",
       "descricao": "Pão Brioche, 3 Carnes de 70g, Bacon e Molho da Casa.",
       "preco": "R$ 30,00"
     },
@@ -140,7 +140,7 @@
       "categoria": "Hambúrgueres Artesanais",
       "id": "burgers-artesanais",
       "nome": "Onion Especial",
-      "imagem": "images/Onion especial.png",
+      "imagem": "images/OnionEspecial.png",
       "descricao": "Pão Australiano, 1 Carne de 140g, Creme Cheddar, Onion Rings, Bacon e Molho da Casa.",
       "preco": "R$ 36,00"
     },
@@ -252,7 +252,7 @@
       "categoria": "Bebidas",
       "id": "bebidas",
       "nome": "Coca-Cola Zero 350ml",
-      "imagem": "images/Coca-Cola 350ml.png",
+      "imagem": "images/Coca-Cola Zero 350ml.png",
       "descricao": "Refrigerante Coca-Cola Zero 350ml",
       "preco": "R$ 6,00"
     },
@@ -270,6 +270,14 @@
       "nome": "Coca-Cola 2L",
       "imagem": "images/Coca-Cola 2l.png",
       "descricao": "Refrigerante Coca-Cola 2l",
+      "preco": "R$ 16,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Coca-Cola Zero 2L",
+      "imagem": "images/Coca-Cola Zero 2l.png",
+      "descricao": "Refrigerante Coca-Cola Zero 2l",
       "preco": "R$ 16,00"
     },
     {
@@ -327,6 +335,14 @@
       "imagem": "images/Dolly 2L.png",
       "descricao": "Refrigerante Dolly 2L",
       "preco": "R$ 9,00"
+    },
+    {
+      "categoria": "Bebidas",
+      "id": "bebidas",
+      "nome": "Sucos 1L",
+      "imagem": "images/Sucos1l.png",
+      "descricao": "Sucos de 1L",
+      "preco": "R$ 10,00"
     }
   ]
 }
