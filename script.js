@@ -271,7 +271,7 @@ window.compartilharWhatsApp = function () {
     });
 
     // Cria a URL do WhatsApp com a mensagem e o total
-    const url = `https://wa.me/?text=${encodeURIComponent(`Segue meu pedido:\n\n${mensagem}\n\nTotal: R$ ${total.toFixed(2)}`)}`;
+    const url = `https://wa.me/5511944926534?text=${encodeURIComponent(`Segue meu pedido:\n\n${mensagem}\n\nTotal: R$ ${total.toFixed(2)}`)}`;
     
     // Abre o link do WhatsApp
     window.open(url, "_blank");

@@ -496,6 +496,17 @@ h1 {
     header {
         display:flex;
     }
+
+    .logo img {
+        width: 125px; /* Ajuste a largura da logo para ocupar toda a tela */
+        height: 125px;
+    }
+
+    .categorias button {
+        font-size: 12px;
+        margin: 1px;
+    }
+
     main {
         padding-top:60px;
     }
