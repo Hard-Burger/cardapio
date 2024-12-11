@@ -2,7 +2,7 @@
   "itens": [
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 1,
       "nome": "Simples Burger",
       "imagem": "images/Simples Burger.png",
       "descricao": "Pão, 1 Carne de 140g e Queijo Cheddar.",
@@ -10,7 +10,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 2,
       "nome": "Classic",
       "imagem": "images/Classic.png",
       "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Alface, Tomate, Cebola Roxa, Maionese e Ketchup.",
@@ -18,7 +18,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 3,
       "nome": "Stake House",
       "imagem": "images/Stake House.png",
       "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Crispy Onion, Alface, Tomate, Molho Barbecue e Molho da Casa.",
@@ -26,7 +26,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 4,
       "nome": "Nordestino",
       "imagem": "images/Nordestino.png",
       "descricao": "Pão Australiano, Hambúrguer de 140g, Bacon, Queijo Coalho, Queijo Cheddar e Molho da Casa.",
@@ -34,7 +34,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 5,
       "nome": "Nordestino Duplo",
       "imagem": "images/Nordestino Duplo.png",
       "descricao": "Pão Australiano, 2 Hambúrgueres de 140g, Bacon, Queijo Coalho, Queijo Cheddar e Molho da Casa.",
@@ -42,7 +42,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 6,
       "nome": "Monster 1.0",
       "imagem": "images/Monster 1.0.png",
       "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
@@ -50,7 +50,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 7,
       "nome": "Monster 2.0",
       "imagem": "images/Monster Duplo.png",
       "descricao": "Pão, 2 Carnes de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
@@ -58,7 +58,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 8,
       "nome": "Monster Burger",
       "imagem": "images/Monster Burger.png",
       "descricao": "Pão, 3 Carnes de 140g, Queijo Cheddar, Bacon e Molho da Casa.",
@@ -66,7 +66,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 9,
       "nome": "Cheddar",
       "imagem": "images/Cheddar.png",
       "descricao": "Pão, 1 Carne de 140g, Cheddar, Bacon e Molho da Casa.",
@@ -74,7 +74,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 10,
       "nome": "Cheddar Duplo",
       "imagem": "images/Cheddar Duplo.png",
       "descricao": "Pão, 2 Carnes de 140g, Cheddar, Bacon e Molho da Casa.",
@@ -82,7 +82,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 11,
       "nome": "Onion Burger",
       "imagem": "images/Onion Burger.png",
       "descricao": "Pão, 1 Carne de 140g, Queijo Cheddar, Onion Rings, Molho Barbecue e Molho da Casa.",
@@ -90,7 +90,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 12,
       "nome": "Onion Duplo",
       "imagem": "images/Onion Duplo.png",
       "descricao": "Pão, 2 Carnes de 140g, Queijo Cheddar, Onion Rings, Molho Barbecue e Molho da Casa.",
@@ -98,7 +98,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 13,
       "nome": "Onion Especial",
       "imagem": "images/OnionEspecial.png",
       "descricao": "Pão Australiano, 1 Carne de 140g, Creme Cheddar, Onion Rings, Bacon e Molho da Casa.",
@@ -106,7 +106,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 14,
       "nome": "Smach Salada",
       "imagem": "images/Smach Salada.png",
       "descricao": "Pão Brioche, 1 Carne de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
@@ -114,7 +114,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 15,
       "nome": "Smach Salada Duplo",
       "imagem": "images/Smach salada duplo.png",
       "descricao": "Pão Brioche, 2 Carnes de 70g, Maionese, Alface, Tomate, Cebola Roxa e Ketchup.",
@@ -122,7 +122,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 16,
       "nome": "Smach Burger",
       "imagem": "images/Smach Burger.png",
       "descricao": "Pão Brioche, 1 Carne de 70g, Bacon e Molho da Casa.",
@@ -130,7 +130,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 17,
       "nome": "Smach Burger Duplo",
       "imagem": "images/Smach Burger Duplo.png",
       "descricao": "Pão Brioche, 2 Carnes de 70g, Bacon e Molho da Casa.",
@@ -138,7 +138,7 @@
     },
     {
       "categoria": "Hambúrgueres Artesanais",
-      "id": "burgers-artesanais",
+      "id": 18,
       "nome": "Smach Burger Triplo",
       "imagem": "images/Smach Burger Triplo.png",
       "descricao": "Pão Brioche, 3 Carnes de 70g, Bacon e Molho da Casa.",
@@ -146,7 +146,7 @@
     },
     {
       "categoria": "Combos",
-      "id": "burgers-combos",
+      "id": 19,
       "nome": "Combo Smash Solteiro",
       "imagem": "images/Combo Smash Solteiro.png",
       "descricao": "1 Smash Salada, Batata com Cheddar e 1 Guaraná Antártica 269ml.",
@@ -154,7 +154,7 @@
     },
     {
       "categoria": "Combos",
-      "id": "burgers-combos",
+      "id": 20,
       "nome": "Combo Smash Casal",
       "imagem": "images/Combo Smash Casal.png",
       "descricao": "2 Smash Salada, Batata com Cheddar e 2 Guaraná Antártica 269ml.",
@@ -162,7 +162,7 @@
     },
     {
       "categoria": "Combos",
-      "id": "burgers-combos",
+      "id": 21,
       "nome": "Combo Solteiro",
       "imagem": "images/Combo Solteiro.png",
       "descricao": "1 Classic, Batata (Cheddar, Bacon e Calabresa) e 1 Guaraná Antártica 269ml.",
@@ -170,7 +170,7 @@
     },
     {
       "categoria": "Combos",
-      "id": "burgers-combos",
+      "id": 22,
       "nome": "Combo Casal",
       "imagem": "images/Combo Casal.png",
       "descricao": "2 Classics, Batata (Cheddar, Bacon e Calabresa) 2 Guaraná Antártica 269ml.",
@@ -178,7 +178,7 @@
     },
     {
       "categoria": "Combos",
-      "id": "burgers-combos",
+      "id": 23,
       "nome": "Combo Família",
       "imagem": "images/Combo Família.png",
       "descricao": "4 Classics, Batata (Cheddar, Bacon e Calabresa) e 1 Dolly 2L.",
@@ -186,7 +186,7 @@
     },
     {
       "categoria": "Porções",
-      "id": "porções",
+      "id": 24,
       "nome": "Porção de Onions Rings",
       "imagem": "images/Onions Rings.png",
       "descricao": "Onions Rings, Cheddar e Bacon.",
@@ -194,7 +194,7 @@
     },
     {
       "categoria": "Porções",
-      "id": "porções",
+      "id": 25,
       "nome": "Batata Crinkle",
       "imagem": "images/Batata Crinkle.png",
       "descricao": "Batata Crinkle.",
@@ -202,7 +202,7 @@
     },
     {
       "categoria": "Porções",
-      "id": "porções",
+      "id": 26,
       "nome": "Batata Crinkle (Cheddar e Bacon)",
       "imagem": "images/Batata Crinkle (Cheddar e Bacon).png",
       "descricao": "Batata Crinkle, cheddar e bacon.",
@@ -210,7 +210,7 @@
     },
     {
       "categoria": "Porções",
-      "id": "porções",
+      "id": 27,
       "nome": "Batata P",
       "imagem": "images/Batata P.png",
       "descricao": "Batata, cheddar, bacon e calabresa.",
@@ -218,7 +218,7 @@
     },
     {
       "categoria": "Porções",
-      "id": "porções",
+      "id": 28,
       "nome": "Batata M",
       "imagem": "images/Batata M.png",
       "descricao": "Batata, cheddar, bacon e calabresa.",
@@ -226,7 +226,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 29,
       "nome": "Fanta Laranja 350ml",
       "imagem": "images/Fanta Laranja 350ml.png",
       "descricao": "Refrigerante Fanta Laranja 350ml",
@@ -234,7 +234,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 30,
       "nome": "Fanta Uva 350ml",
       "imagem": "images/Fanta Uva 350ml.png",
       "descricao": "Refrigerante Fanta Uva 350ml",
@@ -242,7 +242,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 31,
       "nome": "Guaraná Antártica 350ml",
       "imagem": "images/Guaraná Antártica 350ml.png",
       "descricao": "Refrigerante Guaraná Antártica 350ml",
@@ -250,7 +250,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 32,
       "nome": "Coca-Cola 350ml",
       "imagem": "images/Coca-Cola 350ml.png",
       "descricao": "Refrigerante Coca-Cola 350ml",
@@ -258,7 +258,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 33,
       "nome": "Coca-Cola Zero 350ml",
       "imagem": "images/Coca-Cola Zero 350ml.png",
       "descricao": "Refrigerante Coca-Cola Zero 350ml",
@@ -266,7 +266,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 34,
       "nome": "Coca-Cola 1,5L",
       "imagem": "images/Coca-Cola 1-5L.png",
       "descricao": "Refrigerante Coca-Cola 1,5L",
@@ -274,7 +274,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 35,
       "nome": "Coca-Cola 2L",
       "imagem": "images/Coca-Cola 2l.png",
       "descricao": "Refrigerante Coca-Cola 2l",
@@ -282,7 +282,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 36,
       "nome": "Coca-Cola Zero 2L",
       "imagem": "images/Coca-Cola Zero 2l.png",
       "descricao": "Refrigerante Coca-Cola Zero 2l",
@@ -290,7 +290,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 37,
       "nome": "Fanta Laranja 2L",
       "imagem": "images/Fanta Laranja 2l.png",
       "descricao": "Refrigerante Fanta Laranja 2l",
@@ -298,7 +298,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 38,
       "nome": "Fanta Uva 2L",
       "imagem": "images/Fanta Uva 2l.png",
       "descricao": "Refrigerante Fanta Uva 2l",
@@ -306,7 +306,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 39,
       "nome": "Guaraná Antártica 2L",
       "imagem": "images/Guaraná Antártica 2l.png",
       "descricao": "Refrigerante Guaraná Antártica 2l",
@@ -314,7 +314,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 40,
       "nome": "Pepsi 2L",
       "imagem": "images/Pepsi 2L.png",
       "descricao": "Refrigerante Pepsi 2L",
@@ -322,7 +322,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 41,
       "nome": "Sukita Laranja 2L",
       "imagem": "images/Sukita Laranja 2L.png",
       "descricao": "Refrigerante Sukita Laranja 2L",
@@ -330,7 +330,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 42,
       "nome": "Sukita Uva 2L",
       "imagem": "images/Sukita Uva 2L.png",
       "descricao": "Refrigerante Sukita Uva 2L",
@@ -338,7 +338,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 43,
       "nome": "Dolly 2L",
       "imagem": "images/Dolly 2L.png",
       "descricao": "Refrigerante Dolly 2L",
@@ -346,7 +346,7 @@
     },
     {
       "categoria": "Bebidas",
-      "id": "bebidas",
+      "id": 44,
       "nome": "Sucos 1L",
       "imagem": "images/Sucos1l.png",
       "descricao": "Sucos de 1L",
@@ -354,7 +354,7 @@
     },
     {
       "categoria": "Sobremesa",
-      "id": "sobremesa",
+      "id": 45,
       "nome": "Bombom Oreo e Nutella",
       "imagem": "images/Oreo e Nutella.png",
       "descricao": "Bombom Gourmet de Oreo e Nutella.",
@@ -362,7 +362,7 @@
     },
     {
       "categoria": "Sobremesa",
-      "id": "sobremesa",
+      "id": 46,
       "nome": "Bombom Ninho e Nutella",
       "imagem": "images/Ninho e Nutella.png",
       "descricao": "Bombom Gourmet de Ninho e Nutella.",
