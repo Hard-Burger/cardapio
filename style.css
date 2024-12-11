@@ -504,7 +504,8 @@ h1 {
 
     .categorias button {
         font-size: 12px;
-        margin: 1px;
+        margin: 2px;
+        padding: 5px;
     }
 
     .carrossel-container {
