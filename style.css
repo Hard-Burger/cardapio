@@ -507,6 +507,14 @@ h1 {
         margin: 1px;
     }
 
+    .carrossel-container {
+        max-width: 450px;
+    }
+
+    .item img {
+        height: 450px;
+    }
+
     main {
         padding-top:60px;
     }
